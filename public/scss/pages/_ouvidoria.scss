@@ -1,0 +1,99 @@
+.ouvidoria{
+  article{
+    strong{
+      font-size:1.6rem;
+      text-transform:none;
+      color:#000;
+      margin-bottom:2px;
+    }
+    .informacoes{
+      max-width:900px;
+      margin:50px auto 60px auto;
+      text-align:center;
+      overflow:hidden;
+      p{
+        display:block;
+        width:100%;
+        margin-bottom:50px;
+        float:left;
+      }
+      a{
+        text-align:center;
+        position:relative;
+        float:left;
+        font-size:2.8rem;
+        padding-left: 145px;
+        i{
+          width:115px;
+          height:100%;
+          display:block;
+          position:absolute;
+          left:0;
+          top:0;
+          background:#bb1919;
+          &:before{
+            content:'';
+            display:block;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-45%, -50%);
+            z-index:1;
+          }
+        }
+        &.registrar{
+          i{
+            &:before{
+              @include sprite($icon-registrar);
+            }
+          }
+        }
+        &.consultar{
+          float:right;
+          i{
+            &:before{
+              @include sprite($icon-consultar);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(767px){
+  .ouvidoria{
+    article{
+      .informacoes{
+        a{
+          font-size: 1.8rem;
+          padding-left: 90px;
+          i{
+            width:65px;
+            &:before{
+              transform:translate(-50%, -50%) scale(0.6);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(575px){
+  .ouvidoria{
+    article{
+      .informacoes{
+        a{
+          font-size: 1.8rem;
+          padding-left:80px;
+          width:100%;
+          margin-bottom:20px;
+          &:last-child{
+            margin-bottom:0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+/*================================ MEDIA QUERIES ====================================*/
+@media (max-width: 1024px) { {
+
+}
+}
+
+/*================================ BUTTONS ====================================*/
+.btn-red{
+    height: 46px;
+    font-size: 16px;
+}
+
+/*================================ TEXTS ====================================*/
+fieldset h3 {
+    color: #e2001a;
+}
+
+
+/*================================ MAGIN ====================================*/
+.offtop-33{
+    margin-top: 33%;
+}
+
+.offtop-71{
+    margin-top: 71%;
+}
+
+.offtop-107{
+    margin-top: 107%;;
+}
+
+
+.panel-second {
+    border-color: #ddd;
+    border-top: 4px solid #e2001a;
+}
+
+.icon-2x{
+    font-size: 25px;
+    color: #e2001a;
+}
+
+.pdf{
+    width: 10%;
+    max-width: 40px;
+    margin: 5px;
+}
+
+#menu-float {
+    position: sticky;
+    top: 50%;
+    width: 4em;
+    z-index: 8;
+    float: left;
+    margin-right: -3em;
+    margin-left: -4em;
+}
+
+.img-pdf{
+    width: 100%;
+    min-width: 380px;
+}
+
+.is-active {
+    background: #e2001a;
+    color: white;
+    border: none;
+    font-size: 32px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #e40000;
+}
+
+.slick-slider {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.border{
+    border-left: #d7d7d7 1px solid;
+}
+
+.img-fluid{
+    width:100%;
+}
+
+.barra-global {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 45px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #861f1f;
+}
+
+/*================================ MINIATURA COM FADE ====================================*/
+
+.diario-thumb-container {
+    position: relative;
+    width: 100%;
+}
+
+.diario-thumb-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.diario-thumb-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    text-align: center;
+}
+
+.diario-thumb-container:hover .diario-thumb-image {
+    opacity: 0.1;
+}
+
+.diario-thumb-container:hover .diario-thumb-middle {
+    opacity: 1;
+}
+
+.diario-thumb-left-button {
+    width: 100%;
+    padding: 10px 10px;
+    display: block;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.diario-thumb-right-button {
+    width: 100%;
+    padding: 10px 10px;
+    display: block;
+    font-size: 14pt;
+}
+
+.diario-thumb-texto-visualizao {
+    color: #d22323;
+    font-size: 14pt;
+    width: 100%;
+}

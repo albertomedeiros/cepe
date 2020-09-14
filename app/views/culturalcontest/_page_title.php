@@ -1,0 +1,1 @@
+<a class="btn link-inscricao"><?= $data['title']?></a>

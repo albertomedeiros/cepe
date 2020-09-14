@@ -1,0 +1,150 @@
+.concursos{
+  .lista-de-concursos{
+    article{
+      a{
+        padding:30px 0;
+        display:block;
+        border-bottom:4px solid #f5f5f5;
+        h2{
+          font-size:3.6rem;
+          color:#d22323;
+          font-weight:400;
+        }
+      }
+    }
+    .paginacao{
+      margin-top:50px;
+    }
+  }
+  &.interna{
+    article{
+      .cabecalho{
+        border-bottom:4px solid #f5f5f5;
+        margin-bottom:30px;
+        h2{
+          font-weight:400;
+          font-size:3.6rem;
+          color:#d22323;
+          line-height:1.2;
+          margin-bottom:15px;
+        }
+        p{
+          color:#6a6a6a;
+          font-size:1.5rem;
+        }
+      }
+      a{
+        padding:0;
+        display:inline-block;
+        border:none;
+      }
+    }
+    .box-anexo{
+      width:100%;
+      height:auto;
+      border:1px solid #e1e1e1;
+      position:relative;
+      &:before{
+        content:'';
+        display:block;
+        height:3px;
+        width:100%;
+        background:#d22323;
+        position:absolute;
+        top:0px;
+        left:50%;
+        transform:translate(-50%, 0);
+      }
+      .anexos{
+        overflow:hidden;
+        padding:20px;
+        h3{
+          display:block;
+          font-size:1.5rem;
+          text-transform:uppercase;
+          margin-bottom:20px;
+          color:#000;
+        }
+        .anexo{
+          display:block;
+          width:100%;
+          overflow:hidden;
+          margin-bottom:15px;
+          padding-bottom:15px;
+          border-bottom:1px solid #e1e1e1;
+          i{
+            position:relative;
+            display:block;
+            width:42px;
+            height:39px;
+            float:left;
+            background:#d22323;
+            @include transition(all);
+            &:before{
+              content:'';
+              display:block;
+              position:absolute;
+              left:50%;
+              top:50%;
+              transform:translate(-50%, -50%);
+              @include sprite($arrow-bottom);
+            }
+          }
+          p{
+            width:calc(100% - 60px);
+            float:right;
+            margin-bottom:0;
+            text-align:left;
+            font-size:14px;
+            color:#d22323;
+            margin:10px 0;
+          }
+          &:last-child{
+            margin-bottom:0;
+            padding-bottom:0;
+            border:none;
+          }
+          &:hover{
+            i{
+              background:#000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(767px){
+  .concursos{
+    .lista-de-concursos{
+      article{
+        a{
+          padding-top:0;
+          padding-bottom:20px;
+          margin-bottom:20px;
+          h2{
+            font-size:2.6rem;
+          }
+        }
+        .cabecalho{
+          h2{
+            font-size:2.6rem;
+          }
+        }
+        img{
+          max-width:100%;
+        }
+      }
+    }
+    &.interna{
+      .titulo-da-pagina{
+        h1{
+          font-size:8vw; 
+          padding: 0 15px;
+          line-height:1.1;
+        }
+      }
+    }
+  }
+}

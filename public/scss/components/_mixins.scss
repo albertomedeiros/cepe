@@ -1,0 +1,51 @@
+/* funções e variaveis */
+$color-base: #fff;
+$color-text: #484848;
+
+/* função para animação */
+@mixin transition($property:all, $time:0.3s, $ease:ease) {
+  transition: $property $time $ease;
+}
+
+/* mixin para fonte */
+$shape:inherit;
+@mixin arial($color, $size, $height, $weight, $shape) {
+  color:$color;
+  font:$weight #{$size}/#{$height} 'Arial', sans-serif;
+  text-transform:$shape;
+}
+
+/* mixin para sprites */
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+  background-repeat: no-repeat;
+}
+
+/* mixin para centralizar elementos */
+@mixin elementCenter{
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+/* mixin para placeholder */
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+
+// Breakpoint
+@mixin breakpoint($min:null, $max:null) {
+  @if $max == null {
+    @media screen and (max-width: $min){ @content ; }
+  }
+  @else{
+    @media screen and (min-width: $min) and (max-width:$max) { @content ; }
+  }
+}

@@ -1,0 +1,110 @@
+.popup{
+  display:none;
+  position:fixed;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);
+  z-index:999;
+  &.open{
+    display: flex;
+  }
+  .container-popup{
+    background:#fff;
+    max-width:640px;
+    width:100%;
+    height:auto;
+    position:relative;
+    .header-popup{
+      box-sizing:border-box;
+      text-align:center;
+      padding:30px 20px;
+      border-bottom:1px solid #e2e2e2;
+      background:#fbfbfb;
+      position:relative;
+      h4{
+        font-weight:400;
+        color:#000;
+        text-transform:uppercase;
+        font-size:2.8rem;
+      }
+      .close-popup{
+        position:absolute;
+        display:block;
+        position:absolute;
+        right:30px;
+        top:50%;
+        transform:translate(0, -50%);
+        cursor:pointer;
+        @include sprite($icon-fechar);
+      }
+      &:before{
+        content:'';
+        display:block;
+        @include sprite($arrow-bottom-red);
+        position:absolute;
+        left:50%;
+        bottom:-22px;
+        transform:translate(-50%, 0);
+      }
+    }
+    .content-popup{
+      padding:45px 30px 30px;
+      section{
+        background:#fbfbfb;
+        border:1px solid #e2e2e2;
+        border-top: 3px solid #d22323;
+        width:100%;
+        height:auto;
+        overflow:hidden;
+        padding:30px;
+        .item-popup{
+          display: none;
+          &.popup-active{
+            display: block;
+          }
+        }
+        .popup-loader{
+          display: none;
+          img{
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+      h5{
+        font-weight:400;
+        color:#000;
+        font-size:1.6rem;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form{
+        padding:0;
+        .form-field{
+          margin-bottom: 10px;
+        }
+        .form-submit{
+          float: none;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.popup-nota{
+  margin:0 20px;
+  padding: 50px 45px;
+  background: #fbfbfb;
+  border: 1px solid #e1e1e1;
+  border-top: 2px solid #d22323;
+  p{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+  }
+}

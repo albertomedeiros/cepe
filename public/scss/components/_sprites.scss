@@ -1,0 +1,365 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrow-bottom-red-name: 'arrow-bottom-red';
+$arrow-bottom-red-x: 0px;
+$arrow-bottom-red-y: 716px;
+$arrow-bottom-red-offset-x: 0px;
+$arrow-bottom-red-offset-y: -716px;
+$arrow-bottom-red-width: 43px;
+$arrow-bottom-red-height: 43px;
+$arrow-bottom-red-total-width: 72px;
+$arrow-bottom-red-total-height: 1180px;
+$arrow-bottom-red-image: 'img/layout/sprite.png';
+$arrow-bottom-red: (0px, 716px, 0px, -716px, 43px, 43px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-bottom-red', );
+$arrow-bottom-sep-name: 'arrow-bottom-sep';
+$arrow-bottom-sep-x: 0px;
+$arrow-bottom-sep-y: 769px;
+$arrow-bottom-sep-offset-x: 0px;
+$arrow-bottom-sep-offset-y: -769px;
+$arrow-bottom-sep-width: 43px;
+$arrow-bottom-sep-height: 43px;
+$arrow-bottom-sep-total-width: 72px;
+$arrow-bottom-sep-total-height: 1180px;
+$arrow-bottom-sep-image: 'img/layout/sprite.png';
+$arrow-bottom-sep: (0px, 769px, 0px, -769px, 43px, 43px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-bottom-sep', );
+$arrow-bottom-name: 'arrow-bottom';
+$arrow-bottom-x: 0px;
+$arrow-bottom-y: 0px;
+$arrow-bottom-offset-x: 0px;
+$arrow-bottom-offset-y: 0px;
+$arrow-bottom-width: 15px;
+$arrow-bottom-height: 17px;
+$arrow-bottom-total-width: 72px;
+$arrow-bottom-total-height: 1180px;
+$arrow-bottom-image: 'img/layout/sprite.png';
+$arrow-bottom: (0px, 0px, 0px, 0px, 15px, 17px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-bottom', );
+$arrow-left-gray-name: 'arrow-left-gray';
+$arrow-left-gray-x: 0px;
+$arrow-left-gray-y: 288px;
+$arrow-left-gray-offset-x: 0px;
+$arrow-left-gray-offset-y: -288px;
+$arrow-left-gray-width: 15px;
+$arrow-left-gray-height: 28px;
+$arrow-left-gray-total-width: 72px;
+$arrow-left-gray-total-height: 1180px;
+$arrow-left-gray-image: 'img/layout/sprite.png';
+$arrow-left-gray: (0px, 288px, 0px, -288px, 15px, 28px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-left-gray', );
+$arrow-left-red-name: 'arrow-left-red';
+$arrow-left-red-x: 0px;
+$arrow-left-red-y: 86px;
+$arrow-left-red-offset-x: 0px;
+$arrow-left-red-offset-y: -86px;
+$arrow-left-red-width: 12px;
+$arrow-left-red-height: 20px;
+$arrow-left-red-total-width: 72px;
+$arrow-left-red-total-height: 1180px;
+$arrow-left-red-image: 'img/layout/sprite.png';
+$arrow-left-red: (0px, 86px, 0px, -86px, 12px, 20px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-left-red', );
+$arrow-left-name: 'arrow-left';
+$arrow-left-x: 0px;
+$arrow-left-y: 364px;
+$arrow-left-offset-x: 0px;
+$arrow-left-offset-y: -364px;
+$arrow-left-width: 15px;
+$arrow-left-height: 28px;
+$arrow-left-total-width: 72px;
+$arrow-left-total-height: 1180px;
+$arrow-left-image: 'img/layout/sprite.png';
+$arrow-left: (0px, 364px, 0px, -364px, 15px, 28px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-left', );
+$arrow-next-name: 'arrow-next';
+$arrow-next-x: 0px;
+$arrow-next-y: 402px;
+$arrow-next-offset-x: 0px;
+$arrow-next-offset-y: -402px;
+$arrow-next-width: 43px;
+$arrow-next-height: 29px;
+$arrow-next-total-width: 72px;
+$arrow-next-total-height: 1180px;
+$arrow-next-image: 'img/layout/sprite.png';
+$arrow-next: (0px, 402px, 0px, -402px, 43px, 29px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-next', );
+$arrow-prev-name: 'arrow-prev';
+$arrow-prev-x: 0px;
+$arrow-prev-y: 441px;
+$arrow-prev-offset-x: 0px;
+$arrow-prev-offset-y: -441px;
+$arrow-prev-width: 43px;
+$arrow-prev-height: 29px;
+$arrow-prev-total-width: 72px;
+$arrow-prev-total-height: 1180px;
+$arrow-prev-image: 'img/layout/sprite.png';
+$arrow-prev: (0px, 441px, 0px, -441px, 43px, 29px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-prev', );
+$arrow-right-red-name: 'arrow-right-red';
+$arrow-right-red-x: 0px;
+$arrow-right-red-y: 116px;
+$arrow-right-red-offset-x: 0px;
+$arrow-right-red-offset-y: -116px;
+$arrow-right-red-width: 12px;
+$arrow-right-red-height: 20px;
+$arrow-right-red-total-width: 72px;
+$arrow-right-red-total-height: 1180px;
+$arrow-right-red-image: 'img/layout/sprite.png';
+$arrow-right-red: (0px, 116px, 0px, -116px, 12px, 20px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-right-red', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 0px;
+$arrow-right-y: 326px;
+$arrow-right-offset-x: 0px;
+$arrow-right-offset-y: -326px;
+$arrow-right-width: 15px;
+$arrow-right-height: 28px;
+$arrow-right-total-width: 72px;
+$arrow-right-total-height: 1180px;
+$arrow-right-image: 'img/layout/sprite.png';
+$arrow-right: (0px, 326px, 0px, -326px, 15px, 28px, 72px, 1180px, 'img/layout/sprite.png', 'arrow-right', );
+$assinatura-name: 'assinatura';
+$assinatura-x: 0px;
+$assinatura-y: 146px;
+$assinatura-offset-x: 0px;
+$assinatura-offset-y: -146px;
+$assinatura-width: 60px;
+$assinatura-height: 23px;
+$assinatura-total-width: 72px;
+$assinatura-total-height: 1180px;
+$assinatura-image: 'img/layout/sprite.png';
+$assinatura: (0px, 146px, 0px, -146px, 60px, 23px, 72px, 1180px, 'img/layout/sprite.png', 'assinatura', );
+$icon-calendario-white-name: 'icon-calendario-white';
+$icon-calendario-white-x: 0px;
+$icon-calendario-white-y: 179px;
+$icon-calendario-white-offset-x: 0px;
+$icon-calendario-white-offset-y: -179px;
+$icon-calendario-white-width: 25px;
+$icon-calendario-white-height: 26px;
+$icon-calendario-white-total-width: 72px;
+$icon-calendario-white-total-height: 1180px;
+$icon-calendario-white-image: 'img/layout/sprite.png';
+$icon-calendario-white: (0px, 179px, 0px, -179px, 25px, 26px, 72px, 1180px, 'img/layout/sprite.png', 'icon-calendario-white', );
+$icon-calendario-name: 'icon-calendario';
+$icon-calendario-x: 0px;
+$icon-calendario-y: 215px;
+$icon-calendario-offset-x: 0px;
+$icon-calendario-offset-y: -215px;
+$icon-calendario-width: 25px;
+$icon-calendario-height: 26px;
+$icon-calendario-total-width: 72px;
+$icon-calendario-total-height: 1180px;
+$icon-calendario-image: 'img/layout/sprite.png';
+$icon-calendario: (0px, 215px, 0px, -215px, 25px, 26px, 72px, 1180px, 'img/layout/sprite.png', 'icon-calendario', );
+$icon-consultar-name: 'icon-consultar';
+$icon-consultar-x: 0px;
+$icon-consultar-y: 882px;
+$icon-consultar-offset-x: 0px;
+$icon-consultar-offset-y: -882px;
+$icon-consultar-width: 72px;
+$icon-consultar-height: 65px;
+$icon-consultar-total-width: 72px;
+$icon-consultar-total-height: 1180px;
+$icon-consultar-image: 'img/layout/sprite.png';
+$icon-consultar: (0px, 882px, 0px, -882px, 72px, 65px, 72px, 1180px, 'img/layout/sprite.png', 'icon-consultar', );
+$icon-empresa-name: 'icon-empresa';
+$icon-empresa-x: 0px;
+$icon-empresa-y: 1033px;
+$icon-empresa-offset-x: 0px;
+$icon-empresa-offset-y: -1033px;
+$icon-empresa-width: 53px;
+$icon-empresa-height: 68px;
+$icon-empresa-total-width: 72px;
+$icon-empresa-total-height: 1180px;
+$icon-empresa-image: 'img/layout/sprite.png';
+$icon-empresa: (0px, 1033px, 0px, -1033px, 53px, 68px, 72px, 1180px, 'img/layout/sprite.png', 'icon-empresa', );
+$icon-fechar-name: 'icon-fechar';
+$icon-fechar-x: 0px;
+$icon-fechar-y: 524px;
+$icon-fechar-offset-x: 0px;
+$icon-fechar-offset-y: -524px;
+$icon-fechar-width: 35px;
+$icon-fechar-height: 34px;
+$icon-fechar-total-width: 72px;
+$icon-fechar-total-height: 1180px;
+$icon-fechar-image: 'img/layout/sprite.png';
+$icon-fechar: (0px, 524px, 0px, -524px, 35px, 34px, 72px, 1180px, 'img/layout/sprite.png', 'icon-fechar', );
+$icon-lista-name: 'icon-lista';
+$icon-lista-x: 0px;
+$icon-lista-y: 480px;
+$icon-lista-offset-x: 0px;
+$icon-lista-offset-y: -480px;
+$icon-lista-width: 30px;
+$icon-lista-height: 34px;
+$icon-lista-total-width: 72px;
+$icon-lista-total-height: 1180px;
+$icon-lista-image: 'img/layout/sprite.png';
+$icon-lista: (0px, 480px, 0px, -480px, 30px, 34px, 72px, 1180px, 'img/layout/sprite.png', 'icon-lista', );
+$icon-login-name: 'icon-login';
+$icon-login-x: 0px;
+$icon-login-y: 613px;
+$icon-login-offset-x: 0px;
+$icon-login-offset-y: -613px;
+$icon-login-width: 40px;
+$icon-login-height: 40px;
+$icon-login-total-width: 72px;
+$icon-login-total-height: 1180px;
+$icon-login-image: 'img/layout/sprite.png';
+$icon-login: (0px, 613px, 0px, -613px, 40px, 40px, 72px, 1180px, 'img/layout/sprite.png', 'icon-login', );
+$icon-lupa-btn-name: 'icon-lupa-btn';
+$icon-lupa-btn-x: 0px;
+$icon-lupa-btn-y: 663px;
+$icon-lupa-btn-offset-x: 0px;
+$icon-lupa-btn-offset-y: -663px;
+$icon-lupa-btn-width: 47px;
+$icon-lupa-btn-height: 43px;
+$icon-lupa-btn-total-width: 72px;
+$icon-lupa-btn-total-height: 1180px;
+$icon-lupa-btn-image: 'img/layout/sprite.png';
+$icon-lupa-btn: (0px, 663px, 0px, -663px, 47px, 43px, 72px, 1180px, 'img/layout/sprite.png', 'icon-lupa-btn', );
+$icon-lupa-name: 'icon-lupa';
+$icon-lupa-x: 0px;
+$icon-lupa-y: 251px;
+$icon-lupa-offset-x: 0px;
+$icon-lupa-offset-y: -251px;
+$icon-lupa-width: 27px;
+$icon-lupa-height: 27px;
+$icon-lupa-total-width: 72px;
+$icon-lupa-total-height: 1180px;
+$icon-lupa-image: 'img/layout/sprite.png';
+$icon-lupa: (0px, 251px, 0px, -251px, 27px, 27px, 72px, 1180px, 'img/layout/sprite.png', 'icon-lupa', );
+$icon-pdf-name: 'icon-pdf';
+$icon-pdf-x: 0px;
+$icon-pdf-y: 822px;
+$icon-pdf-offset-x: 0px;
+$icon-pdf-offset-y: -822px;
+$icon-pdf-width: 33px;
+$icon-pdf-height: 50px;
+$icon-pdf-total-width: 72px;
+$icon-pdf-total-height: 1180px;
+$icon-pdf-image: 'img/layout/sprite.png';
+$icon-pdf: (0px, 822px, 0px, -822px, 33px, 50px, 72px, 1180px, 'img/layout/sprite.png', 'icon-pdf', );
+$icon-registrar-name: 'icon-registrar';
+$icon-registrar-x: 0px;
+$icon-registrar-y: 957px;
+$icon-registrar-offset-x: 0px;
+$icon-registrar-offset-y: -957px;
+$icon-registrar-width: 68px;
+$icon-registrar-height: 66px;
+$icon-registrar-total-width: 72px;
+$icon-registrar-total-height: 1180px;
+$icon-registrar-image: 'img/layout/sprite.png';
+$icon-registrar: (0px, 957px, 0px, -957px, 68px, 66px, 72px, 1180px, 'img/layout/sprite.png', 'icon-registrar', );
+$icon-tabela-name: 'icon-tabela';
+$icon-tabela-x: 0px;
+$icon-tabela-y: 568px;
+$icon-tabela-offset-x: 0px;
+$icon-tabela-offset-y: -568px;
+$icon-tabela-width: 23px;
+$icon-tabela-height: 35px;
+$icon-tabela-total-width: 72px;
+$icon-tabela-total-height: 1180px;
+$icon-tabela-image: 'img/layout/sprite.png';
+$icon-tabela: (0px, 568px, 0px, -568px, 23px, 35px, 72px, 1180px, 'img/layout/sprite.png', 'icon-tabela', );
+$icon-usuario-big-name: 'icon-usuario-big';
+$icon-usuario-big-x: 0px;
+$icon-usuario-big-y: 1111px;
+$icon-usuario-big-offset-x: 0px;
+$icon-usuario-big-offset-y: -1111px;
+$icon-usuario-big-width: 66px;
+$icon-usuario-big-height: 69px;
+$icon-usuario-big-total-width: 72px;
+$icon-usuario-big-total-height: 1180px;
+$icon-usuario-big-image: 'img/layout/sprite.png';
+$icon-usuario-big: (0px, 1111px, 0px, -1111px, 66px, 69px, 72px, 1180px, 'img/layout/sprite.png', 'icon-usuario-big', );
+$icon-usuario-name: 'icon-usuario';
+$icon-usuario-x: 0px;
+$icon-usuario-y: 56px;
+$icon-usuario-offset-x: 0px;
+$icon-usuario-offset-y: -56px;
+$icon-usuario-width: 18px;
+$icon-usuario-height: 20px;
+$icon-usuario-total-width: 72px;
+$icon-usuario-total-height: 1180px;
+$icon-usuario-image: 'img/layout/sprite.png';
+$icon-usuario: (0px, 56px, 0px, -56px, 18px, 20px, 72px, 1180px, 'img/layout/sprite.png', 'icon-usuario', );
+$sep-bottom-black-name: 'sep-bottom-black';
+$sep-bottom-black-x: 0px;
+$sep-bottom-black-y: 27px;
+$sep-bottom-black-offset-x: 0px;
+$sep-bottom-black-offset-y: -27px;
+$sep-bottom-black-width: 30px;
+$sep-bottom-black-height: 19px;
+$sep-bottom-black-total-width: 72px;
+$sep-bottom-black-total-height: 1180px;
+$sep-bottom-black-image: 'img/layout/sprite.png';
+$sep-bottom-black: (0px, 27px, 0px, -27px, 30px, 19px, 72px, 1180px, 'img/layout/sprite.png', 'sep-bottom-black', );
+$spritesheet-width: 72px;
+$spritesheet-height: 1180px;
+$spritesheet-image: 'img/layout/sprite.png';
+$spritesheet-sprites: ($arrow-bottom-red, $arrow-bottom-sep, $arrow-bottom, $arrow-left-gray, $arrow-left-red, $arrow-left, $arrow-next, $arrow-prev, $arrow-right-red, $arrow-right, $assinatura, $icon-calendario-white, $icon-calendario, $icon-consultar, $icon-empresa, $icon-fechar, $icon-lista, $icon-login, $icon-lupa-btn, $icon-lupa, $icon-pdf, $icon-registrar, $icon-tabela, $icon-usuario-big, $icon-usuario, $sep-bottom-black, );
+$spritesheet: (72px, 1180px, 'img/layout/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

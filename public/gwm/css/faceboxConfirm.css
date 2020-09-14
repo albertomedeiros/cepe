@@ -1,0 +1,69 @@
+#faceboxConfirm .b {
+  background:url(../js/jquery/facebox/img/b.png);
+}
+
+#faceboxConfirm .tl {
+  background:url(../js/jquery/facebox/img/tl.png);
+}
+
+#faceboxConfirm .tr {
+  background:url(../js/jquery/facebox/img/tr.png);
+}
+
+#faceboxConfirm .bl {
+  background:url(../js/jquery/facebox/img/bl.png);
+}
+
+#faceboxConfirm .br {
+  background:url(../js/jquery/facebox/img/br.png);
+}
+
+#faceboxConfirm {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+}
+
+#faceboxConfirm .popup {
+  position: relative;
+}
+
+#faceboxConfirm table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+#faceboxConfirm .body {
+  padding: 10px;
+  background: #fff;
+  width: 370px;
+}
+
+#faceboxConfirm .loading {
+  text-align: center;
+}
+
+#faceboxConfirm .image {
+  text-align: center;
+}
+
+#faceboxConfirm img {
+  border: 0;
+}
+
+#faceboxConfirm .footer {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#faceboxConfirm .tl, #faceboxConfirm .tr, #faceboxConfirm .bl, #faceboxConfirm .br {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
